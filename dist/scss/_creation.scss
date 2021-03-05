@@ -1,0 +1,100 @@
+.creation {
+    padding-top: 92px;
+    padding-bottom: 184px;
+
+    @media (max-width: $mobile) {
+        padding-top: 45px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 30px;
+
+        @media (max-width: $mobile) {
+            grid-template-columns: 1fr; 
+        }
+    }
+
+    &__box {
+        
+        &:hover .creation__imgDesktop,
+        &:hover .creation__imgMobile{
+            opacity: 0.3;
+        }
+
+        &:hover .creation__imgTitle {
+            color: $black;
+        }
+    }
+
+    &__item {
+        position: relative;
+        
+    }
+
+    &__imgDesktop {
+        transition: all 0.3s ease;
+
+        @media (max-width: $mobile) {
+            display: none;
+        }
+    }
+    &__imgMobile {
+        transition: all 0.3s ease;
+
+        @media (min-width: $mobile) {
+            display: none;
+        }
+    }
+
+    &__imgTitle {
+        font-family: $fontfamily-2;
+        font-size: 32px;
+        font-weight: 300;
+        color: $white;
+        text-transform: uppercase;
+        position: absolute;
+        left: 20px;
+        bottom: 21px;
+        transition: all 0.3s ease;
+
+        @media (max-width: $small-tablet) {
+            font-size: 24px;
+
+        }
+    }
+
+    &__footer {
+        text-align: center;
+
+        @media (max-width: $mobile) {
+            margin-top: 34px;
+        }
+    }
+
+    &__btn {
+        display: inline-block;
+        font-family: $fontfamily-2;
+        font-size: 15px;
+        font-weight: 400;
+        color: $black;
+        text-transform: uppercase;
+        padding: 15px 38px;
+        background-color: $white;
+        border: 2px solid $darkGray;
+        letter-spacing: 3px;
+        cursor: pointer;
+        transition: all 0.3s ease;        
+        
+        @media (min-width: $mobile) {
+            display: none;
+        }
+
+        &:hover {
+            color: $white;
+            background-color: $black;
+            border: 2px solid $black;
+        }
+    }
+}

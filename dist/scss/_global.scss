@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: $fontFamily-1;
+    background-color: $white;
+
+    @media (max-width: $mobile) {
+        &.no--scroll {
+            overflow: hidden;
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: $large-tablet) {
+        max-width: 900px;
+    }
+
+    @media (max-width: $small-tablet) {
+        max-width: 670px;
+    }
+
+    @media (max-width: $mobile) {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+}
+
+.section-title {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 81px;
+
+    @media (max-width: $mobile) {
+        margin-bottom: 49px;
+    }
+}
+
+.section-heading {
+    font-family: $fontfamily-2;
+    font-size: 48px;
+    font-weight: 300;
+    color: $black;
+    text-transform: uppercase;
+
+    @media (max-width: $mobile) {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+.section-btn {
+    display: inline-block;
+    font-family: $fontfamily-2;
+    font-size: 15px;
+    font-weight: 400;
+    color: $black;
+    text-transform: uppercase;
+    padding: 15px 38px;
+    background-color: $white;
+    border: 2px solid $darkGray;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    @media (max-width: $mobile) {
+        display: none;
+    }
+
+    &:hover {
+        color: $white;
+        background-color: $black;
+        border: 2px solid $black;
+    }
+}
+
+
+
+
