@@ -1,0 +1,64 @@
+.footer {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background-color: $black;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        @media (max-width: $mobile) {
+            grid-template-columns: auto;
+        }
+    }
+    
+    &__item {}
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 26px;
+
+        @media (max-width: $mobile) {
+            margin-bottom: 35px;
+        }
+
+        img {
+            max-width: 143px;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        font-family: $fontFamily-1;
+        font-size: 15px;
+        font-weight: 400;
+        color: $white;
+        text-transform: capitalize;
+        margin-right: 33px;
+
+        @media (max-width: $mobile) {
+            display: block;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        margin-left: 15px;
+        margin-bottom: 26px;
+        
+        @media (max-width: $mobile) {
+            margin-top: 50px;
+        }
+    }
+
+    &__icon-img {
+        max-width: 24px;
+    }
+
+    &__reserved {
+        color: $darkGray;
+    }
+}

@@ -104,6 +104,46 @@ li {
     }
 }
 
+.attribution {
+    font-family: $fontfamily-2;
+    background-color: $black;
+    text-align: center;
+    color: $darkGray;
+    padding: 10px 0;
+    
+    a {
+        color: $white;
+    }
+}
+
+
+.text-c {
+    text-align: center;
+}
+
+.text-l {
+    text-align: left;
+}
+
+.text-r {
+    text-align: right;
+}
+
+@media (max-width: $mobile) {
+    .m-text-c {
+        text-align: center;
+    }
+    
+    .m-text-l {
+        text-align: left;
+    }
+    
+    .m-text-r {
+        text-align: right;
+    }
+    
+    
+}
 
 
 
