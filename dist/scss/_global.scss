@@ -38,43 +38,43 @@ li {
 }
 
 .container {
-    max-width: 1114px;
+    max-width: 69.625rem;
     margin-left: auto;
     margin-right: auto;
 
     @media (max-width: $large-tablet) {
-        max-width: 900px;
+        max-width: 56.25rem;
     }
 
     @media (max-width: $small-tablet) {
-        max-width: 670px;
+        max-width: 41.875rem;
     }
 
     @media (max-width: $mobile) {
-        padding-left: 23px;
-        padding-right: 23px;
+        padding-left: 1.4375rem;
+        padding-right: 1.4375rem;
     }
 }
 
 .section-title {
     display: grid;
     grid-template-columns: 1fr auto;
-    margin-bottom: 81px;
+    margin-bottom: 5.0625rem;
 
     @media (max-width: $mobile) {
-        margin-bottom: 49px;
+        margin-bottom: 3.0625rem;
     }
 }
 
 .section-heading {
     font-family: $fontfamily-2;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 300;
     color: $black;
     text-transform: uppercase;
 
     @media (max-width: $mobile) {
-        font-size: 32px;
+        font-size: 2rem;
         text-align: center;
     }
 }
@@ -82,11 +82,11 @@ li {
 .section-btn {
     display: inline-block;
     font-family: $fontfamily-2;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     color: $black;
     text-transform: uppercase;
-    padding: 15px 38px;
+    padding: 0.9375rem 2.375rem;
     background-color: $white;
     border: 2px solid $darkGray;
     letter-spacing: 3px;
@@ -109,7 +109,7 @@ li {
     background-color: $black;
     text-align: center;
     color: $darkGray;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     
     a {
         color: $white;

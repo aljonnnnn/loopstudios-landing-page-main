@@ -7,7 +7,7 @@
     // background-color: gray;
     
     .nav {
-        padding-top: 64px;
+        padding-top: 4rem;
         display: grid;
         grid-template-columns: 1fr auto auto;
 
@@ -15,18 +15,18 @@
        
 
         @media (max-width: $mobile) {
-            padding-top: 40px;
+            padding-top: 2.5rem;
             grid-template-columns: 1fr auto;
         }
 
         &__logo {
-            max-width: 192px;
-            max-height: 32px;
+            max-width: 12rem;
+            max-height: 2rem;
             z-index: 1100;
 
 
             @media (max-width: $mobile) {
-                max-width: 145px;
+                max-width: 9.0625rem;
             }
         }
 

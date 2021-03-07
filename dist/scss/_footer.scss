@@ -1,6 +1,6 @@
 .footer {
-    padding-top: 44px;
-    padding-bottom: 44px;
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
     background-color: $black;
 
     &__grid {
@@ -16,46 +16,46 @@
 
     &__logo {
         display: inline-block;
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
 
         @media (max-width: $mobile) {
-            margin-bottom: 35px;
+            margin-bottom: 2.1875rem;
         }
 
         img {
-            max-width: 143px;
+            max-width: 8.9375rem;
         }
     }
 
     &__link {
         display: inline-block;
         font-family: $fontFamily-1;
-        font-size: 15px;
+        font-size: 0.9375rem;
         font-weight: 400;
         color: $white;
         text-transform: capitalize;
-        margin-right: 33px;
+        margin-right: 2.0625rem;
 
         @media (max-width: $mobile) {
             display: block;
             text-align: center;
             margin-right: 0;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
     }
 
     &__icon {
         display: inline-block;
-        margin-left: 15px;
-        margin-bottom: 26px;
+        margin-left: 0.9375rem;
+        margin-bottom: 1.625rem;
         
         @media (max-width: $mobile) {
-            margin-top: 50px;
+            margin-top: 3.125rem;
         }
     }
 
     &__icon-img {
-        max-width: 24px;
+        max-width: 1.5rem;
     }
 
     &__reserved {

@@ -4,12 +4,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 225px;
-    padding-bottom: 145px;
+    padding-top: 14.0625rem;
+    padding-bottom: 9.0625rem;
 
     @media (max-width: $mobile) {
-        padding-top: 227px;
-        padding-bottom: 227px;
+        padding-top: 14.1875rem;
+        padding-bottom: 14.1875rem;
     }
 
     &::after {
@@ -23,44 +23,44 @@
     }
 
     @media (max-width: $mobile) {
-        padding-left: 23px;
-        padding-right: 23px;
+        padding-left: 1.4375rem;
+        padding-right: 1.4375rem;
     }
 
     &__text {
         position: relative;
-        max-width: 650px;
+        max-width: 40.625rem;
         border: 2px solid $white;
-        padding: 23px 27px;
+        padding: 1.4375rem 1.6875rem;
         z-index: 100;
         
        
         @media (max-width: $mobile) {
-            padding: 30px 34px;
-            margin-left: -23px;
-            margin-right: -23px;
+            padding: 1.875rem 2.125rem;
+            margin-left: -1.4375rem;
+            margin-right: -1.4375rem;
     
         }
 
 
         @media (max-width: $small-mobile) {
-            padding: 20px 25px;
+            padding: 1.25rem 1.5625rem;
         }
     }
 
     &__heading {
         font-family: $fontfamily-2;
-        font-size: 72px;
+        font-size: 4.5rem;
         font-weight: 300;
         color: $white;
         text-transform: uppercase;
 
         @media (max-width: $mobile) {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
 
         @media (max-width: $small-mobile) {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
     }
 }

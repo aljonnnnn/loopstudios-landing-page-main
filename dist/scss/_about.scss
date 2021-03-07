@@ -1,10 +1,10 @@
 .about {
-    padding-top: 159px;
-    padding-bottom: 92px;
+    padding-top: 9.9375rem;
+    padding-bottom: 5.75rem;
 
     @media (max-width: $mobile) {
-        padding-top: 48px;
-        padding-bottom: 45px;
+        padding-top: 3rem;
+        padding-bottom: 2.8125rem;
     }
     
     &__item {
@@ -12,25 +12,21 @@
     }
 
     &__img {
-        max-width: 731px;
-        max-height: 500px;
-        
-        @media (max-width: $mobile) {
-            // margin-bottom: 47px;
-        }
+        max-width: 45.6875rem;
+        max-height: 31.25rem;
     }
 
     &__text {
         position: absolute;
         bottom: 0;
-        left: 570px;
-        padding-top: 96px;
-        padding-left: 96px;
+        left: 35.625rem;
+        padding-top: 6rem;
+        padding-left: 6rem;
         background-color: $white;
-        max-height: 639px;
+        max-height: 39.9375rem;
 
         @media (max-width: $large-tablet) {
-            left: 298px;
+            left: 18.625rem;
         }
 
         @media (max-width: $small-tablet) {
@@ -39,30 +35,30 @@
             top: 0;
 
             text-align: center;
-            padding: 16px;
-            padding-top: 47px;
+            padding: 1rem;
+            padding-top: 2.9375rem;
         }
         
     }
     
     &__heading {
         font-family: $fontfamily-2;
-        font-size: 48px;
+        font-size: 3rem;
         font-weight: 300;
         color: $black;
         text-transform: uppercase;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
 
         @media (max-width: $mobile) {
-            font-size: 32px;
-            margin-bottom: 17px;
+            font-size: 2rem;
+            margin-bottom: 1.15625rem;
         }
 
     }
 
     &__paragraph {
         font-family: $fontFamily-1;
-        font-size: 15px;
+        font-size: 0.9375rem;
         font-weight: 400;
         color: $darkGray;
         line-height: 1.65;
